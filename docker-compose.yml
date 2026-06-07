@@ -1,0 +1,12 @@
+services:
+  web:
+    build: .
+    container_name: curriculo-site
+
+    ports:
+      - "8080:80"
+
+    volumes:
+      - .:/usr/share/nginx/html
+
+    restart: unless-stopped
