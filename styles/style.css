@@ -1,3 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #e4e4e4;
+    color: #1c0000;
+}
+
+.container {
+    width: min(1000px, 90%);
+    margin: 0 auto;
+}
+
+.hero {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
+        ),
+        url("../assets/space.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    colr: white;
+    padding: 8rem 0;
+    text-align: center;
+}
+
+.hero h1,
+.hero .subtitle {
+    text-shadow:
+        2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.contacts a {
+    color: #ff884d;
+    text-decoration: underline;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.contacts a:hover {
+    color: #ff0000;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    color: #210000;
+}
+
+.card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(27, 0, 0, 0.066);
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills span {
+    background-color: #240202;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.experience-list {
+    margin-top: 1rem;
+    padding-left: 2rem;
+}
+
+.experience-list li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
 }
