@@ -31,6 +31,11 @@ body {
     text-align: center;
 }
 
+.subtitle {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
 .hero h1,
 .hero .subtitle {
     text-shadow: 2px 2px 6px rgb(0 0 0 / 80%);
@@ -39,11 +44,6 @@ body {
 .hero h1 {
     font-size: 4rem;
     margin-bottom: 0.5rem;
-}
-
-.subtitle {
-    margin-top: 0.5rem;
-    font-size: 1.2rem;
 }
 
 .contacts a {
