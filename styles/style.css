@@ -19,15 +19,13 @@ body {
 .hero {
     background-image:
         linear-gradient(
-            rgba(0, 0, 0, 0.55),
-            rgba(0, 0, 0, 0.55)
+            rgb(0 0 0 / 55%),
+            rgb(0 0 0 / 55%)
         ),
         url("../assets/space.jpg");
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     color: white;
     padding: 8rem 0;
     text-align: center;
@@ -35,9 +33,9 @@ body {
 
 .hero h1,
 .hero .subtitle {
-    text-shadow:
-        2px 2px 6px rgba(0, 0, 0, 0.8);
+    text-shadow: 2px 2px 6px rgb(0 0 0 / 80%);
 }
+
 .hero h1 {
     font-size: 4rem;
     margin-bottom: 0.5rem;
@@ -50,13 +48,13 @@ body {
 
 .contacts a {
     color: #ff884d;
-    text-decoration: underline;
     margin: 0 10px;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .contacts a:hover {
-    color: #ff0000;
+    color: #f00;
 }
 
 main {
@@ -73,11 +71,11 @@ h2 {
 }
 
 .card {
-    background-color: white;
-    padding: 1rem;
-    border-radius: 10px;
     margin-bottom: 1rem;
-    box-shadow: 0 2px 8px rgba(27, 0, 0, 0.066);
+    padding: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(27 0 0 / 6.6%);
 }
 
 .skills {
@@ -87,9 +85,9 @@ h2 {
 }
 
 .skills span {
-    background-color: #240202;
-    color: white;
     padding: 8px 12px;
+    color: white;
+    background-color: #240202;
     border-radius: 20px;
 }
 
